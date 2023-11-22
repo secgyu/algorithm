@@ -21,8 +21,8 @@ def union(i, j, parent, rank):
 parent = [1, 1, 3, 3, 5, 5]
 rank = [0, 1, 0, 1, 0, 1]
 
-union(0, 2, parent, rank)
 union(1, 3, parent, rank)
+union(3, 5, parent, rank)
 
 print(parent)
 print(rank)
